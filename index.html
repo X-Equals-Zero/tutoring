@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoring Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-xl font-bold">Tutoring Services</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-gray-600 hover:text-gray-800">Home</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-800">About</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-800">Services</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-800">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-6">
+        <section class="px-4 py-8 bg-white shadow rounded-lg">
+            <h2 class="text-2xl font-bold mb-4">Welcome to Our Tutoring Services!</h2>
+            <p class="text-gray-700 leading-relaxed">We offer personalized tutoring services for students of all
+                ages and levels.</p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <div class="bg-white shadow rounded-lg p-6">
+                <h3 class="text-xl font-bold mb-4">Subjects We Tutor</h3>
+                <ul class="text-gray-700">
+                    <li>Mathematics</li>
+                    <li>Science</li>
+                    <li>English</li>
+                    <li>History</li>
+                    <li>Computer Science</li>
+                </ul>
+            </div>
+            <div class="bg-white shadow rounded-lg p-6">
+                <h3 class="text-xl font-bold mb-4">Why Choose Us?</h3>
+                <ul class="text-gray-700">
+                    <li>Experienced tutors</li>
+                    <li>Flexible scheduling</li>
+                    <li>Customized lesson plans</li>
+                    <li>One-on-one attention</li>
+                    <li>Affordable rates</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mt-8">
+            <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+            <form action="#" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" class="mt-1 p-2 border rounded-md w-full">
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" class="mt-1 p-2 border rounded-md w-full">
+                </div>
+                <div class="col-span-2">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4"
+                        class="mt-1 p-2 border rounded-md w-full"></textarea>
+                </div>
+                <div class="col-span-2">
+                    <button type="submit"
+                        class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600">Send
+                        Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            &copy; 2024 X-Equals-Zero Tutoring Services. All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
